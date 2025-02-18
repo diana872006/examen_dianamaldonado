@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> convocatoria extraordinaria</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="centro">
+            <hr>
+            <a href="https://portal.edu.gva.es/ieselgrao/?page_id=690&lang=es">
+            <h1>IES EL GRAO</h1>
+            </a>
+            <hr>
+        </header>
+    <script>
+
+        function examen(){
+            var nombre = document.getElementById("nombre").value;
+            var apellido = document.getElementById("apellido").value;
+            alert('Bienvenido ' + nombre + ' ' + apellido +'Bienvenido ' )
+        }
+
+    </script>
+<body class="alerta">
+    Nombre <input type="nombre" id="nombre"> <br>
+    <br>
+    Apellido <input type="apellido" id="apellido" onchange="examen()">
+</body>
+<footer>
+    <hr>
+    <br>
+    <span class="web"><b>Web desarrollada por</b></span>
+    <span class="nombre"><b>tu nombre</b></span>
+    <br>
+    <br>
+    <hr>
+</footer>
+</html>

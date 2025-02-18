@@ -1,0 +1,52 @@
+.centro {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: rgb(255, 208, 0);
+}
+
+body {
+    background-color: bisque;
+}
+
+
+.SMR {
+    background-color: palevioletred;
+}
+
+.DAM {
+    background-color: rgb(98, 98, 107);
+    text-align: center;
+}
+
+.ASIR {
+    background-color: rgb(129, 129, 235);
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    background-color: yellow;
+}
+.web {
+    color: blue;
+}
+
+.nombre {
+    color: red;
+}
+
+table {
+    text-align: center;
+    border-spacing: 15px;
+    border: black 3px;
+    color: red;
+}
+
+.HORARI {
+    color: blue;
+}
+
+body.alerta {
+    color: rgb(255, 174, 0);
+}
